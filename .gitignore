@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Frontend build output & cache
+frontend/dist/
+frontend/.vite/
+
+# Local databases & logs
+*.db
+*.db-journal
+*.log
+.DS_Store
+
+# MarketLab local data lake & raw archives (keep out of git)
+data/raw/
+data/parquet/
+data/lake/
+data/quarantine/
