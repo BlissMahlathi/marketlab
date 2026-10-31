@@ -20,3 +20,4 @@ data/raw/
 data/parquet/
 data/lake/
 data/quarantine/
+.env
